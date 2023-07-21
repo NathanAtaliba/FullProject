@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #06283D;
+}
+.container-form{
+    position: relative;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 450px;
+    background-color: #fff;
+    padding: 30px 60px;
+    font-size: 2rem;
+}
+.form-label{
+    color: black;
+    font-size: 2rem;
+    padding: 10px 10px;
+}
+.email{
+    color: black;
+    background-color: transparent;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.email:hover{
+    background-color: #fff;
+}
+.password{
+    color: black;
+    background-color: transparent;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    border: #06283D;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.password:hover{
+    background-color: #fff;
+}
+
+.buttons{
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px 10px;
+    margin: 40px 40px;
+}
+.return_btn{
+    font-size: 1.5rem;
+    background-color: black;
+    cursor: pointer;
+    padding: 52px 10px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    width: 130px;
+    height: 120px;
+    color: #fff;
+    text-decoration: none;
+}
+.return_btn:hover{
+    background-color:#06283D ;
+}
+.code_btn{
+    font-size: 1.5rem;
+    background-color: black;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    width: 200px;
+    height: 120px;
+    color: #fff;
+}
+.code_btn:hover{
+    background-color:#06283D;
+}
+

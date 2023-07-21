@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/adm.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>ADM-Cadaster</title>
+</head>
+<body>
+<div class="opcoes">
+<button class="cabeleireiro" id="cabeleireiro" onclick="OptionsCabeleireiro()" >Cabeleireiro</button>
+<button class="cliente" id="cliente" onclick="OptionsCliente()" >Cliente</button>
+<input type="search" class="text" id="text" placeholder="Procurar" onkeyup="search()">
+</div>    
+  <h1 class="text" id="title">Cliente</h1>
+  
+  <form id="form">
+    <input type="text" id="nome" placeholder="Nome">
+    <input type="email" id="email" placeholder="Email">
+    <input type="Tel" id="celular" placeholder="Numero">
+    <input type="datetime-local" id="datetime" placeholder="Data">
+    <button type="submit" id="salvar" onclick="addObject()">Adicionar</button>
+    <button type="button" id="cancelar">Cancelar</button>
+  </form>
+  
+  <table id="tabela">
+    <thead>
+      <tr>
+        <th class="table1" id="table1">Nome</th>
+        <th class="table2" id="table2">Email</th>
+        <th class="table3" id="table3">Numero</th>
+        <th class="table4" id="table4">Hora marcada</th>
+      </tr>
+    </thead>
+    <tbody id="tabela-corpo">
+      <!-- Os registros serão inseridos aqui -->
+    </tbody>
+  </table>
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
+<script src="JS/conexao.js"></script>
+<script src="JS/adm.js"></script> 
+</html>

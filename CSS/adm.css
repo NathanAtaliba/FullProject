@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  .opcoes{
+    background-color: #2196F3;
+    width: 100%;
+    height: 50px;
+  }
+  .cabeleireiro{
+    background-color: #fff;
+    height: 100%;
+    border-radius: 10px;
+    width: 100px;
+  }
+  .cabeleireiro:hover{
+    background-color:#4CAF50;
+  }
+  .cliente{
+    background-color: #fff;
+    height: 100%;
+    border-radius: 10px;
+    width: 100px;
+  }
+  .cliente:hover{
+    background-color:#4CAF50;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  /* Estilos para o formulário */
+  #form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  #form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  #form input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  #form input[type="datetime-local"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  #form input[type="Tel"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  #form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #form button[type="submit"] {
+    background-color: #4CAF50;
+    border-radius: 10px;
+    margin: 2px 2px;
+  }
+  
+  #form button[type="button"] {
+    background-color: #f44336;
+    border-radius: 10px;
+    margin: 2px 2px;
+  }
+  
+  /* Estilos para a tabela */
+  #tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #tabela th, #tabela td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #tabela th {
+    background-color: #f2f2f2;
+  }
+  
+  #tabela tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para os botões de ação */
+  #tabela button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  #tabela button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Estilos para o botão "Salvar" */
+  #tabela button.salvar {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Estilos para o botão "Excluir" */
+  #tabela button.excluir {
+    background-color: #f44336;
+    color: white; 
+  }
+  
+  /* Estilos para o botão "Editar" */
+  #tabela button.editar {
+    background-color: #2196F3;
+    color: white;
+  }
