@@ -18,6 +18,7 @@
   <form id="form">
     <input type="text" id="nome" placeholder="Nome">
     <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Senha">
     <input type="Tel" id="celular" placeholder="Numero">
     <input type="datetime-local" id="datetime" placeholder="Data">
     <button type="submit" id="salvar" onclick="addObject()">Adicionar</button>
@@ -26,11 +27,12 @@
   
   <table id="tabela">
     <thead>
-      <tr>
+      <tr class="linha" id="linha">
         <th class="table1" id="table1">Nome</th>
         <th class="table2" id="table2">Email</th>
-        <th class="table3" id="table3">Numero</th>
-        <th class="table4" id="table4">Hora marcada</th>
+        <th class="table3" id="table3">Senha</th>
+        <th class="table4" id="table4">Numero</th>
+        <th class="table5" id="table5">Hora marcada</th>
       </tr>
     </thead>
     <tbody id="tabela-corpo">
@@ -42,5 +44,5 @@
 <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
 <script src="JS/conexao.js"></script>
-<script src="JS/adm.js"></script> 
+<script src="JS/adm.js"></script>
 </html>

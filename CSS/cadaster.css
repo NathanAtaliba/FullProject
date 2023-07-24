@@ -15,67 +15,67 @@ body{
 }
 .container-form{
     position: relative;
-    width: 450px;
+    width: 500px;
     border: 2px solid transparent;
     border-radius: 10px;
-    height: 500px;
+    height: 600px;
     background-color: black;
-    padding: 30px 90px;
+    padding: 30px 110px;
     font-size: 1.5rem;
     opacity: 0.9;
 }
 .form-label{
-    color: black;
-    font-size: 1.5rem;
-    padding: 10px 10px;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5px 10px;
 }
 .name{
-    color: black;
+    color: #fff;
     background-color: transparent;
     font-size: 1.2rem;
-    padding: 10px 10px;
+    padding: 5px 30px;
     border: #06283D;
     border: 1px solid gray;
     border-radius: 10px;
 }
 .name:hover{
-    background-color: #fff;
+    border-color: #964b00;
 }
 
 .email{
-    color: black;
+    color: #fff;
     background-color: transparent;
     font-size: 1.2rem;
-    padding: 10px 10px;
+    padding: 5px 30px;
     border: 1px solid gray;
     border-radius: 10px;
 }
 .email:hover{
-    background-color: #fff;
+    border-color: #964b00;
 }
 .password{
-    color: black;
+    color: #fff;
     background-color: transparent;
     font-size: 1.2rem;
-    padding: 10px 10px;
+    padding: 5px 30px;
     border: #06283D;
     border: 1px solid gray;
     border-radius: 10px;
 }
 .password:hover{
-    background-color: #fff;
+    border-color: #964b00;
 }
 .number{
-    color: black;
+    color: #fff;
     background-color: transparent;
     font-size: 1.2rem;
-    padding: 10px 10px;
+    padding: 5px 30px;
     border: #06283D;
     border: 1px solid gray;
     border-radius: 10px;
 }
 .number:hover{
-    background-color: #fff;
+    border-color: #964b00;
 }
 
 .buttons{

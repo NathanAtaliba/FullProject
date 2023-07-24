@@ -57,6 +57,11 @@ body {
     margin-bottom: 10px;
     border-radius: 10px;
   }
+  #form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
   
   #form button {
     padding: 10px;
@@ -77,6 +82,7 @@ body {
     border-radius: 10px;
     margin: 2px 2px;
   }
+  
   
   /* Estilos para a tabela */
   #tabela {
